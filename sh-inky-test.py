@@ -25,15 +25,15 @@ font = ImageFont.truetype(FredokaOne, fontsize)
 import time
 message1 = datetime = time.strftime("%-d.%-m. %-H:%M")
 message2 = myip
-message3 = temp
+#message3 = temp
 
-print message1
-print message2
-print message3
+print (message1)
+print (message2)
+#print (message3)
 
 draw.text((10, 0), message1, inky_display.BLACK, font)
 draw.text((10, fontsize), message2, inky_display.RED, font)
-draw.text((10, fontsize*2), message3, inky_display.RED, font)
+#draw.text((10, fontsize*2), message3, inky_display.RED, font)
 
 inky_display.set_image(img)
 inky_display.show()
