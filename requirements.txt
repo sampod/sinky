@@ -3,7 +3,7 @@ font-fredoka-one==0.0.4
 gpiozero==1.6.2
 inky==1.2.2
 numpy==1.21.2
-Pillow==8.3.2
+Pillow==9.0.0 --no-binary :all:
 RPi.GPIO==0.7.1a4
 smbus2==0.4.1
 spidev==3.5
