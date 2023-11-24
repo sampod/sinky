@@ -26,8 +26,8 @@ font = ImageFont.truetype(FredokaOne, fontsize)
 # message = "Hello, World!"
 import time
 message1 = datetime = time.strftime("%-d.%-m. %-H:%M")
-message2 = myip
-message3 = "Temp: " + str(round(temp,1)) + " °C"
+message2 = "IP: " + myip
+message3 = "CPU temp: " + str(round(temp,1)) + " °C"
 
 print (message1)
 print (message2)
